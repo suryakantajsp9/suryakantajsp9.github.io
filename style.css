@@ -1,8 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 
 #navbar{
     border: 1px solid black;
@@ -16,31 +16,85 @@
     display: flex;
 }
 
+#navbar h2:hover{
+    font-size: 25px;
+}
+
 #space{
    width: auto;
    /* border: 1px solid white; */
    display: flex;
    align-items: center;
    justify-content: space-between;
-   width: 700px;
+   width: 600px;
    margin-right: 80px;
 }
 
-#propic{
-    height: 320px;
-    width: 350px;
-    border-radius: 20px;
-}
-
-#propic :hover{
-    border: 5px solid black;
-}
-
 #wlcm{
-   
-    font-size: 50px;
-text-align: center;
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
 }
+#wlcm div{
+    width: 40%;
+    /* border: 1px solid black; */
+    height: auto;
+    margin-top: 20px;
+
+}
+
+
+  #intro1{
+  font-size: 40px;
+margin-top: 80px;
+  }
+
+  #intro2{
+
+    font-size: 50px;
+    margin-top: 30px;
+  }
+
+  #intro3{
+    font-size: 40px;
+    margin-top: 30px;
+  }
+
+
+
+  #prof :hover{
+    margin: auto;
+    /* //transform: scale(1); */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  #Resume{
+
+    margin-top: 50px;
+    height: 50pxs;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
