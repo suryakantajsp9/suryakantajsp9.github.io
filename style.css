@@ -130,6 +130,65 @@ margin-top: 80px;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   }
 
+  #Skill{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color:  #bda3e0;
+    width: 40%;
+    height: 330px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #Skill h3{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  #github{
+   text-align: center;
+  }
+
+  #bap{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+
+    height: 500px;
+  }
+
+  #bap div{
+    
+    height:450px;
+    width: 45%;
+    border-radius: 10px;
+    text-align: center;
+    background-color:  #bda3e0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .pp{
+    width: 90%;
+    border-radius: 10px;
+    
+    margin-top: 20px;
+  }
+
+  .prijectlink{
+    margin-top: 10px;
+    height: 50pxs;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+
+
 
 
 
