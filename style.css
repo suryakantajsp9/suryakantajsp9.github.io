@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#navbar{
+    border: 1px solid black;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+    background: #000;
+    position: sticky;
+    top: 0px;
+    display: flex;
+}
+
+#space{
+   width: auto;
+   /* border: 1px solid white; */
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 700px;
+   margin-right: 80px;
+}
+
+#propic{
+    height: 320px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+#propic :hover{
+    border: 5px solid black;
+}
+
+#wlcm{
+   
+    font-size: 50px;
+text-align: center;
+}
+
+
+
+
+
+
