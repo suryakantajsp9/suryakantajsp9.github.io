@@ -84,6 +84,28 @@ margin-top: 80px;
     cursor: pointer;
   }
 
+  #aboutdiv{
+   
+    width: 100%;
+    height: 600px;
+    background-color:  #bda3e0;
+    margin-top: 40px;
+  }
+
+  #aboutdiv h1{
+   text-align: center;
+   margin-top: 25px;
+  }
+
+  #detail_about{
+    font-size: 25px;
+    width: 60%;
+    margin: auto;
+    height: 400px;
+   
+    text-align: center;
+    font-weight: 200;
+  }
 
 
 
