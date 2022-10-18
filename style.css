@@ -32,10 +32,10 @@
 
 #wlcm{
     /* border: 1px solid black; */
-    width: 80%;
+    width: 75%;
     height: 550px;
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     margin: auto;
     width: 80%;
 }
@@ -44,8 +44,8 @@
     /* border: 1px solid black; */
     height: auto;
     margin-top: 20px;
-
 }
+
 
 
   #intro1{
@@ -87,7 +87,7 @@ margin-top: 80px;
   #aboutdiv{
    
     width: 100%;
-    height: 600px;
+    height: auto;
     background-color:  #6e07f3;
     color: white;
     margin-top: 40px;
@@ -100,12 +100,13 @@ margin-top: 80px;
 
   #detail_about{
     font-size: 25px;
-    width: 60%;
+    width: 70%;
     margin: auto;
-    height: 400px;
+    height: auto;
    
     text-align: center;
     font-weight: 200;
+    padding-bottom: 30px;
   }
 
   #techskill{
@@ -119,13 +120,23 @@ margin-top: 80px;
    text-align: center;
   }
 
+  #techskill h2{
+    font-size: 20px;
+    margin:5px auto 10px auto;
+    margin-top: -30px;
+  }
+
   #techskill img{
-    width: 35%;
-    margin: 2px auto auto auto;
+    /* width: 35%; */
+    height: 50%;
+    margin: 10px auto auto auto;
   }
   #techskill div{
-   
-    height: 150px;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+    width: 150px;
+    height: auto+50px;
     text-align: center;
     border-radius: 20px;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -158,12 +169,12 @@ margin-top: 80px;
     width: 80%;
     margin: auto;
 
-    height: 500px;
+    
   }
 
   #bap div{
     
-    height:450px;
+    height:auto;
     width: 45%;
     border-radius: 10px;
     text-align: center;
@@ -188,6 +199,7 @@ margin-top: 80px;
     border-radius: 10px;
     padding: 5px;
     cursor: pointer;
+    margin-bottom: 10px;
   }
 
   #footer{
@@ -209,6 +221,29 @@ margin-top: 80px;
     color: white;
     
   }
+
+  @media (max-width: 1300px) {
+  
+  }
+  @media (max-width: 1104px) {
+
+  }
+  @media (max-width: 991px) {
+
+  
+  }
+  @media (max-width: 947px) {
+  
+  
+  }
+  @media (max-width: 690px) {
+
+  }
+  
+  @media (max-width: 500px) {
+   
+  }
+  
 
 
 
